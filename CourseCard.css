@@ -1,0 +1,75 @@
+.course-card {
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  width: 300px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* This makes the card float up when you hover over it! */
+.course-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.15);
+}
+
+.course-image {
+  height: 160px;
+  width: 100%;
+}
+
+.course-content {
+  padding: 20px;
+}
+
+.category {
+  background-color: #e0e7ff;
+  color: #4f46e5;
+  padding: 5px 12px;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+h3 {
+  margin: 15px 0 5px 0;
+  color: #1f2937;
+  font-size: 1.3rem;
+}
+
+.instructor {
+  color: #6b7280;
+  font-size: 0.9rem;
+  margin-bottom: 20px;
+}
+
+.course-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #f3f4f6;
+  padding-top: 15px;
+}
+
+.price {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #10b981; /* Nice modern green */
+}
+
+.enroll-btn {
+  background-color: #4f46e5; /* Primary purple/blue */
+  color: white;
+  border: none;
+  padding: 8px 20px;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.enroll-btn:hover {
+  background-color: #4338ca;
+}
